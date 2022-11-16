@@ -1,0 +1,9 @@
+extends layout.pug 
+
+block content
+  h1 WORDSEARCH 
+
+  div.wordsearch
+    ul.ws-ul
+      each line in linesArr
+        li=line
